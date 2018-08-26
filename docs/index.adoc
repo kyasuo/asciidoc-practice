@@ -1,0 +1,73 @@
+= Template
+//author:
+//version 1.0.0
+:lang: ja
+:doctype: article
+:docname: 
+:description: 本ドキュメントはＸＸＸです。
+:page-layout: docs
+:keywords: ＸＸＸ, ガイドライン
+:icons: font
+:docinfo:
+:toc: left
+:toclevels: 3
+:linkattrs:
+:sectnums:
+:chapter-label: 
+:sectanchors:
+:pdf-fontsdir: fonts
+:pdf-style: ../theme/pdf-theme.yml 
+:source-highlighter: prettify
+:experimental:
+:imagesdir: images
+:includedir: includes
+:sourcedir: sources
+:toc-title: 目次
+:preface-title: はじめに
+:appendix-caption: 付録
+:caution-caption: 注意
+:example-caption: 例
+:figure-caption: 図
+:important-caption: 重要
+:last-update-label: 最終更新
+:manname-title: 名前
+:note-caption: 注記
+:preface-title: まえがき
+:table-caption: 表
+:tip-caption: ヒント
+:toc-title: 目次
+:untitled-label: 無題
+:version-label: バージョン
+:warning-caption: 警告
+:listing-caption:
+
+// CSSとJSの読み込み
+++++
+<link rel="stylesheet" href="css/index.css"></link>
+<script src="js/jquery-3.3.1.slim.min.js"></script>
+<script src="js/index.js"></script>
+++++
+
+
+toc::[]
+
+== 概要
+
+=== ＸＸＸ
+----
+include::{includedir}/1-1.adoc[tags=基本]
+----
+
+=== ＹＹＹ
+----
+include::{includedir}/1-2.adoc[tags=基本]
+----
+
+
+== 詳細
+
+=== ＩＩＩ
+----
+include::{includedir}/2-1.adoc[tags=基本]
+----
+
